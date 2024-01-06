@@ -8,6 +8,19 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -17,6 +30,207 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      .button {
+        background-color: #69653f;
+        padding: 10px 20px;
+        margin: 0 auto;
+        display: block;
+        font-size: 16px;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: box-shadow 0.3s ease-in-out;
+      }
+      button:hover {
+        box-shadow: 0 0 3px 3px white;
+      }
+
+      @media (max-width: 800px) {
+        h2 {
+          text-align: center;
+          font-size: 30px;
+          margin: 5px;
+        }
+        p {
+          font-size: 15px;
+          text-align: center;
+        }
+        img {
+          margin: 0 auto;
+          display: block;
+        }
+      }
+    </style>
   </head>
-  <body></body>
+
+  <body>
+    <nav id="nav-bar" class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="images/Jujutsu_Kaisen_logo.png"
+            alt="Jujutsu_Kaisen_logo
+"
+            width="200"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link text-white active"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="characters.html"
+                >Characters</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="author.html">Author</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="manga.html">Manga</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <h1 class="mt-5">Gege Akutami</h1>
+
+      <div class="row">
+        <div class="col-md-6">
+          <p>
+            Gege Akutami (芥あくた見み下げ々げ Akutami Gege), born February 26,
+            1992, is a Japanese manga artist best known for creating Jujutsu
+            Kaisen and its prequel, Jujutsu Kaisen 0: Jujutsu High.A relatively
+            private figure, Akutami-sensei has garnered immense praise for their
+            unique storytelling, intricate world-building, and compelling
+            characters within the manga realm. With a background shrouded in
+            mystery, their passion for the supernatural and folklore resonates
+            vividly through the pages of "Jujutsu Kaisen." The series' success
+            catapulted Akutami-sensei into the limelight, earning admiration for
+            their masterful narrative that seamlessly intertwines action,
+            emotion, and the enigmatic forces of the jujutsu world.
+            Akutami-sensei's artistry continues to captivate audiences,
+            solidifying their place as a prominent mangaka in the ever-evolving
+            landscape of Japanese
+          </p>
+        </div>
+
+        <div class="col-md-2">
+          <img
+            class="rounded ms-2 mb-2"
+            src="images/gege.jpg"
+            alt=""
+            width="200"
+          />
+        </div>
+        <div class="col-md-2">
+          <img
+            class="rounded ms-2 mb-2"
+            src="images/gege2.jpg"
+            alt=""
+            width="200"
+          />
+        </div>
+        <div class="col-md-2">
+          <img
+            class="rounded ms-2 mb-2"
+            src="images/gege3.jpg"
+            alt=""
+            width="200"
+          />
+        </div>
+      </div>
+      <h2 class="mt-5">History</h2>
+      <hr />
+      <p>
+        In 2014, Akutami created Kamishiro Sōsa (神代捜査カミシロソウサ?), a 45
+        pages one-shot, that was published in the Jump Next 2014 vol. 2 issue.
+        The next year, 2015, Akutami created another 43 page one-shot named No.9
+        (No.9ナンバーナイン?), in the Jump Next 2015 vol. 2 issue. The same
+        year, a new version of No.9 (No.9ナンバーナイン?) one-shot (47 pages)
+        telling a different story, was published in the Weekly Shonen Jump
+        2015-46 issue. In 2016, Akutami created a new 47 page one-shot Nikai
+        Bongai Barabarjura (二に界かい梵ぼん骸がい バラバルジュラ?), was
+        published in Weekly Shonen Jump 2016-44 issue. The one-shot was part of
+        Jump's Golden Future Cup as entry #5. The following year (2017), Akutami
+        started their first serialization with Jujutsu Kaisen 0: Jujutsu High
+        (東京都立呪術高等専門学校とうきょうとりつじゅじゅつこうとうせんもんがっこう?),
+        in Jump GIGA 2017 vol. 1 issue. The series was meant to be a short one
+        and continued until 2017 vol.4 issue. The series was about a cursed
+        child who entered a magical school in order to free himself of the curse
+        and help others in similar situations. In 2018, due to the good
+        reception of the Akutami's previous series, a full serialization of the
+        series was granted, starting in Weekly Shonen Jump 2018-14 issue. The
+        series was titled Jujutsu Kaisen (呪術廻戦じゅじゅつかいせん?) and was a
+        direct sequel to their previous work. The story was about a boy who
+        entered a magical school in an attempt to collect and kill all the parts
+        of a powerful cursed spirit.
+      </p>
+      <h2 class="mt-5">Works</h2>
+      <hr />
+
+      <ul>
+        <li>
+          Kamishiro Sōsa (神代捜査カミシロソウサ?) (2014) Jump Next 2014 vol.2
+          Issue (oneshot)
+        </li>
+        <li>
+          No.9 (No.9ナンバーナイン?) (2015) Jump Next 2015 vol.2 Issue (oneshot)
+        </li>
+        <li>
+          No.9 (No.9ナンバーナイン?) (2015) Weekly Shōnen Jump 2015-46 Issue
+          (oneshot)
+        </li>
+        <li>
+          Nikai Bongai Barabarjura (二に界かい梵ぼん骸がい バラバルジュラ?)
+          (2016) Weekly Shōnen Jump 2016-44 Issue (oneshot)
+        </li>
+        <li>
+          Jujutsu Kaisen 0: Jujutsu High
+          (東京都立呪術高等専門学校とうきょうとりつじゅじゅつこうとうせんもんがっこう?)
+          (2017) Jump GIGA 2017 vol.1 - vol. 4 (series)
+        </li>
+        <li>
+          Jujutsu Kaisen (呪術廻戦じゅじゅつかいせん?) (2018) Weekly Shōnen Jump
+          2018-14 Issue - Ongoing (series)
+        </li>
+      </ul>
+      <h2 class="mt-5">Editors</h2>
+      <hr />
+      <ul>
+        <li>
+          Tatsuhiko Katayama (片山達彦 Katayama Tatsuhiko?) Tatsuhiko Katayama
+          (片山達彦 Katayama Tatsuhiko?) (First Editor)
+        </li>
+        <li>Junya Fukuda (福田純也 Fukuda Junya?) (Second Editor)</li>
+      </ul>
+    </div>
+    <button class="button button mb-5 mt-5 rounded">
+      <a href="author.html#nav-bar"><strong>Back to top 🡱 </strong> </a>
+    </button>
+  </body>
 </html>

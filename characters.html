@@ -8,6 +8,19 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -17,6 +30,1265 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      button:hover {
+        box-shadow: 0 0 3px 3px white;
+      }
+
+      ul {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+      }
+      .info {
+        color: black;
+      }
+      .button {
+        background-color: #69653f;
+        padding: 10px 20px;
+        margin: 0 auto;
+        display: block;
+        font-size: 16px;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: box-shadow 0.3s ease-in-out;
+      }
+      .card-img {
+        height: 400px;
+        width: 90%;
+      }
+
+      @media (max-width: 800px) {
+        h2 {
+          text-align: center;
+          font-size: 30px;
+          margin: 5px;
+        }
+        p {
+          font-size: 15px;
+          text-align: center;
+        }
+
+        .jjk-info-cards {
+          margin: 0 auto;
+          display: block;
+        }
+      }
+    </style>
   </head>
-  <body></body>
+
+  <body>
+    <nav id="nav-bar" class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="images/Jujutsu_Kaisen_logo.png"
+            alt="Jujutsu_Kaisen_logo
+"
+            width="200"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link text-white active"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="characters.html"
+                >Characters</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="author.html">Author</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="manga.html">Manga</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <h2 class="mt-5 mb-5">Tokyo Jujutsu High</h2>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Yuji.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Itadori Yuji</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: March 20, 2003</li>
+              <li class="list-group-item">Age: 15</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Yuji_Itadori "
+                target="_blank"
+                class="card-link"
+                >Learn more➜</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="col-md-3">
+            <div class="jjk-info-cards card mb-5" style="width: 18rem">
+              <img
+                src="images/Megumi.webp"
+                class="card-img card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Megumi Fushiguro</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Species: Human</li>
+                <li class="list-group-item">Birthday: December 22, 2002</li>
+                <li class="list-group-item">Age: 16</li>
+                <li class="list-group-item">Gender: Male</li>
+              </ul>
+              <div class="card-body">
+                <a
+                  href="https://jujutsu-kaisen.fandom.com/wiki/Megumi_Fushiguro"
+                  target="_blank"
+                  class="card-link"
+                  >Learn more➜</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Nobara.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Nobara Kugisaki</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: August 7th, 2002</li>
+              <li class="list-group-item">Age: 16</li>
+              <li class="list-group-item">Gender: Female</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Nobara_Kugisaki"
+                target="_blank"
+                class="card-link"
+                >Learn more➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Yuta.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Yuta Okkotsu</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: March 7th, 2001</li>
+              <li class="list-group-item">Age: 17</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Yuta_Okkotsu"
+                target="_blank"
+                class="card-link"
+                >Learn more➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Toge.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Toge Inumaki</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: October 23, 2001</li>
+              <li class="list-group-item">Age: 17</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Toge_Inumaki"
+                target="_blank"
+                class="card-link"
+                >Learn more➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Maki.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Maki Zenin</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: January 20, 2002</li>
+              <li class="list-group-item">Age: 16</li>
+              <li class="list-group-item">Gender: Female</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Maki_Zenin"
+                target="_blank"
+                class="card-link"
+                >Learn more➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Panda.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Panda</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Cursed Corpse</li>
+              <li class="list-group-item">Birthday: March 5</li>
+              <li class="list-group-item">Age: Unknown</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Yuta_Okkotsu"
+                target="_blank"
+                class="card-link"
+                >Learn more➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Ijichi.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kiyotaka Ijichi</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: April 20, 1991</li>
+              <li class="list-group-item">Age: 27</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Kiyotaka_Ijichi"
+                target="_blank"
+                class="card-link"
+                >Learn more➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <h2 class="mt-5 mb-5">Kyoto Jujutsu High</h2>
+
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/todo.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Aoi Todo</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: September 23, 2000</li>
+              <li class="list-group-item">Age: 18</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Aoi_Todo"
+                target="_blank"
+                class="card-link"
+                >Learn more➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Miwa.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kasumi Miwa</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: April 4, 2001</li>
+              <li class="list-group-item">Age: 17</li>
+              <li class="list-group-item">Gender: Female</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Kasumi_Miwaa"
+                target="_blank"
+                class="card-link"
+                >Learn more➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Muta.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kokichi Muta</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: October 4, 2001</li>
+              <li class="list-group-item">Age: 17</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Kokichi_Muta#cite_note-fan1-1"
+                target="_blank"
+                class="card-link"
+                >Learn more➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Mai.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Mai Zenin</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: January 20, 2002</li>
+              <li class="list-group-item">Age: 16</li>
+              <li class="list-group-item">Gender: Female</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Mai_Zenin"
+                target="_blank"
+                class="card-link"
+                >Learn more➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Arata.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Arata Nitta</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: September 23, 2000</li>
+              <li class="list-group-item">Age: 16</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Arata_Nitta"
+                target="_blank"
+                class="card-link"
+                >Learn more➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Momo.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Momo Nishimiya</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: July 7, 2000</li>
+              <li class="list-group-item">Age: 18</li>
+              <li class="list-group-item">Gender: Female</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Momo_Nishimiya"
+                target="_blank"
+                class="card-link"
+                >Learn more➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/kamo.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Noritoshi Kamo</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: June 5, 2000</li>
+              <li class="list-group-item">Age: 18</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Noritoshi_Kamo"
+                target="_blank"
+                class="card-link"
+                >Learn more➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Utahime.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Utahime Iori</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">February 18, 1987</li>
+              <li class="list-group-item">Age: 31</li>
+              <li class="list-group-item">Gender: Female</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Utahime_Iori"
+                target="_blank"
+                class="card-link"
+                >Learn more➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Yoshinobu.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Yoshinobu Gakuganji</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">September 23, 2000</li>
+              <li class="list-group-item">Age: 76</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Yoshinobu_Gakuganji"
+                target="_blank"
+                class="card-link"
+                >Learn more➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <h2 class="mt-5 mb-5">Jujutsu Sorcerers</h2>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/gojo.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Satoru Gojo</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: December 7, 1989</li>
+              <li class="list-group-item">Age: 29</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Satoru_Gojo"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Yuki.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Yuki Tsukumo</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: Unknown</li>
+              <li class="list-group-item">Age: Unknown</li>
+              <li class="list-group-item">Gender: Female</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Satoru_Gojo"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Kusakabe.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Atsuya Kusakabe</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: Unknown</li>
+              <li class="list-group-item">Age: Unknown</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Atsuya_Kusakabe"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Yaga.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Masamichi Yaga</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: Unknown</li>
+              <li class="list-group-item">Age: 47</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Masamichi_Yaga"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Nanami.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kento Nanami</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: July 3, 1990</li>
+              <li class="list-group-item">Age: 28</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Kento_Nanami"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Mei_Mei.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Mei Mei</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: Unknown</li>
+              <li class="list-group-item">Age: Unknown</li>
+              <li class="list-group-item">Gender: Female</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Mei_Mei"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Shoko.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Shoko Ieiri</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: November 7, 1989</li>
+              <li class="list-group-item">Age: 29</li>
+              <li class="list-group-item">Gender: Female</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Shoko_Ieiri"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Ino.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Takuma Ino</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: Unknown</li>
+              <li class="list-group-item">Age: 21</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Takuma_Ino"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <h2 class="mt-5 mb-5">Curse Users</h2>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Toji.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Toji Fushiguro</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: December 31</li>
+              <li class="list-group-item">Age: Unknown</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Toji_Fushiguro"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Geto.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Suguru Geto</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: February 3, 1990</li>
+              <li class="list-group-item">Age: 27</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Suguru_Geto"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Haruta.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Haruta Shigemo</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: Unknown</li>
+              <li class="list-group-item">Age: Unknown</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Haruta_Shigemo"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Junpei.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Junpei Yoshino</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: Unknown</li>
+              <li class="list-group-item">Age: 17</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Junpei_Yoshino"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Juzo.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Juzo Kumiya</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: Unknown</li>
+              <li class="list-group-item">Age: Unknown</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Juzo_Kumiya"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Miguel.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Miguel</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: Unknown</li>
+              <li class="list-group-item">Age: Unknown</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Miguel"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Uraume.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Uraume</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: Unknown</li>
+              <li class="list-group-item">Age: 1000+</li>
+              <li class="list-group-item">Gender: Unknown</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Uraume"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Mimiko.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Mimiko Hasaba</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: Unknown</li>
+              <li class="list-group-item">Age: 17</li>
+              <li class="list-group-item">Gender: Female</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Mimiko_Hasaba"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Nanako.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Nanako Hasaba</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: Unknown</li>
+              <li class="list-group-item">Age: 16</li>
+              <li class="list-group-item">Gender: Female</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Nanako_Hasaba"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Kenjaku.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kenjaku</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: Unknown</li>
+              <li class="list-group-item">Age: 1000+</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Kenjaku"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <h2 class="mt-5 mb-5">Cursed Spirits</h2>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Rika.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Rika Orimoto</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Cursed Spirit</li>
+              <li class="list-group-item">Birthday: Unknown</li>
+              <li class="list-group-item">Age: 11</li>
+              <li class="list-group-item">Gender: Female</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Rika_Orimoto"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Mahito.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Mahito</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Cursed Spirit</li>
+              <li class="list-group-item">Birthday: Unknown</li>
+              <li class="list-group-item">Age: Unknown</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Mahito"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Dagon.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Dagon</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Cursed Spirit</li>
+              <li class="list-group-item">Birthday: Unknown</li>
+              <li class="list-group-item">Age: Unknown</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Dagon"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Hanami.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Hanami</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Cursed Spirit</li>
+              <li class="list-group-item">Birthday: Unknown</li>
+              <li class="list-group-item">Age: Unknown</li>
+              <li class="list-group-item">Gender: Unknown</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Hanami"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Jogo.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Jogo</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Human</li>
+              <li class="list-group-item">Birthday: Unknown</li>
+              <li class="list-group-item">Age: Unknown</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Jogo"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <h2 class="mt-5 mb-5">Incarnated Spirits</h2>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Sukuna.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ryomen Sukuna</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Incarnation</li>
+              <li class="list-group-item">Birthday: Unknown</li>
+              <li class="list-group-item">Age: 1000+</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Sukuna"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Choso.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Choso</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Death Painting Wombs</li>
+              <li class="list-group-item">Birthday: Unknown</li>
+              <li class="list-group-item">Age: 150</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Choso"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Eso.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Eso</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Cursed Womb</li>
+              <li class="list-group-item">Birthday: Unknown</li>
+              <li class="list-group-item">Age: 150</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Sukuna"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="jjk-info-cards card mb-5" style="width: 18rem">
+            <img
+              src="images/Kechizu.webp"
+              class="card-img card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kechizu</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Species: Cursed Womb</li>
+              <li class="list-group-item">Birthday: Unknown</li>
+              <li class="list-group-item">Age: 150</li>
+              <li class="list-group-item">Gender: Male</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://jujutsu-kaisen.fandom.com/wiki/Kechizu"
+                target="_blank"
+                class="card-link"
+                >Learn more ➜
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="button button mb-5 mt-3 rounded">
+        <a class="info" href="characters.html#nav-bar"
+          ><strong>Back to top 🡱 </strong>
+        </a>
+      </button>
+    </div>
+  </body>
 </html>
