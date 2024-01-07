@@ -36,29 +36,28 @@ This repository contains a website dedicated to the anime "Jujustu Kaisen." The 
 Here are some screenshots of the Jujustu Kaisen website:
 
 ![Home Page](/images/home-page.png)
-_Description: Home page featuring a brief overview, JJk intros, and main characters._
+_Home page featuring a brief overview, JJk intros, and main characters._
 
 ![Character Page](/images/character-page.png)
-_Description: Character page showcasing character cards with names, species, and more._
+_Character page showcasing character cards with names, species, and more._
 
 ![Author Page](/images/author-page.png)
-_Description: Author page highlighting Gege Akutami's biography, images, and works._
+_Author page highlighting Gege Akutami's biography, images, and works._
 
 ![Manga Page](/images/manga-page.png)
-_Description: Manga page displaying manga volumes, a summary, and navigation buttons._
+_Manga page displaying manga volumes, a summary, and navigation buttons._
 
 ### Credits
 
 - **Content**: Information and media related to Jujustu Kaisen sourced from [Crunchyroll](https://www.crunchyroll.com/) and [Jujustu Kaisen Fandom](https://jujutsu-kaisen.fandom.com/) websites.
 - **Images**:
 
-  - Images used in the website sourced from licensed providers and promotional materials
-  - ![Jujustu Kaisen Fandom Website](/images/jjk-fandom.png)
-  - ![Pinterest]
+- Images used in the website sourced from licensed providers and promotional materials
 
-  ### Technologies Used
+- Jujustu Kaisen Fandom Website ![Jujustu Kaisen Fandom Website](/images/jjk-fandom.png)
+- Pinterest
 
-This project utilizes several technologies and tools:
+### Technologies Used
 
 - **HTML**: Used for creating the structure and content of web pages.
 - **CSS**: Employed for styling and designing web pages, allowing customization of layout, colors, fonts, etc.
