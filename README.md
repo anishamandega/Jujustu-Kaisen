@@ -35,13 +35,13 @@ This repository contains a website dedicated to the anime "Jujustu Kaisen." The 
 
 Here are some screenshots of the Jujustu Kaisen website:
 
-![Home Page](/screenshots/home_page.png)
+![Home Page](/images/home-page.png)
 _Description: Home page featuring a brief overview, JJk intros, and main characters._
 
-![Character Page](/screenshots/character_page.png)
+![Character Page](/images/character-page.png)
 _Description: Character page showcasing character cards with names, species, and more._
 
-![Author Page](/screenshots/author_page.png)
+![Author Page](/images/author-page.png)
 _Description: Author page highlighting Gege Akutami's biography, images, and works._
 
 ![Manga Page](/images/manga-page.png)
@@ -52,10 +52,9 @@ _Description: Manga page displaying manga volumes, a summary, and navigation but
 - **Content**: Information and media related to Jujustu Kaisen sourced from [Crunchyroll](https://www.crunchyroll.com/) and [Jujustu Kaisen Fandom](https://jujutsu-kaisen.fandom.com/) websites.
 - **Images**:
 
-  - Images used in the website sourced from licensed providers and promotional materials provided by Crunchyroll.
-  - ![Crunchyroll Website](/images/crunchyroll_screenshot.png) - Screenshot of Crunchyroll homepage.
-  - ![Jujustu Kaisen Fandom Website](/images/jjk_fandom_screenshot.png) - Screenshot of Jujustu Kaisen Fandom page.
-  - ![Pinterest](/images/pinterest_screenshot.png) - Screenshot of relevant content from Pinterest.
+  - Images used in the website sourced from licensed providers and promotional materials
+  - ![Jujustu Kaisen Fandom Website](/images/jjk-fandom.png)
+  - ![Pinterest]
 
   ### Technologies Used
 
