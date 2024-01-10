@@ -63,3 +63,4 @@ _Manga page displaying manga volumes, a summary, and navigation buttons._
 - **CSS**: Employed for styling and designing web pages, allowing customization of layout, colors, fonts, etc.
 - **Bootstrap**: A popular CSS framework utilized for creating responsive websites, providing pre-designed templates, components, and utilities.
 - **Google Fonts**: Integrated to enhance typography by offering a wide selection of free fonts that improve readability and appearance.
+- **Font Awesome**: Utilized for scalable vector icons, offering a comprehensive icon toolkit for web projects.
