@@ -4,3 +4,45 @@
      background-color: black;
 
  }
+
+ footer .social-links a {
+     margin: 0 20px;
+     color: #fff;
+     font-size: 18px;
+
+ }
+
+ .github-link {
+     text-align: center;
+     font-family: Poppins;
+     font-size: 16px;
+     font-weight: 600;
+ }
+
+ .github-link a {
+     text-decoration: underline;
+
+ }
+
+ footer {
+     background-color: #333;
+     color: #fff;
+     padding: 20px 0;
+     text-align: center;
+ }
+
+ .email-link {
+     text-decoration: none;
+     color: #fff;
+     font-family: Poppins;
+     font-size: 18px;
+     font-weight: 500;
+ }
+
+
+
+ .footer-info p {
+     font-family: Poppins;
+     font-weight: 500;
+     font-size: 18px;
+ }
